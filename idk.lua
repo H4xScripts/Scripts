@@ -1,3 +1,7 @@
+local function LoadScript()
+    print("LOL")
+end
+
 local HttpService = game:GetService("HttpService")
 local key = _G.H4xScriptKeySystem
 
@@ -200,8 +204,6 @@ else
         task.wait(0.6)
         gui:Destroy()
     end)
+    
 end
 
-local function LoadScript()
-    print("Loading script...") -- Placeholder, replace with your actual script
-end
