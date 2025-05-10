@@ -1,6 +1,7 @@
 local HttpService = game:GetService("HttpService")
 local key = _G.H4xScriptKeySystem
 local function LoadScript()
+	
     -- Services
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
