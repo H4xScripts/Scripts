@@ -1,3 +1,6 @@
+-- Credit to @pr0methaxine 
+
+
 local replicatedStorage = game:GetService("ReplicatedStorage")
 local collectionService = game:GetService("CollectionService")
 local players = game:GetService("Players")
