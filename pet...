@@ -25,7 +25,7 @@ local function CreateEspGui(object, text)
     billboard.Size = UDim2.new(0, 200, 0, 50)
     billboard.StudsOffset = Vector3.new(0, 2.5, 0)
     billboard.AlwaysOnTop = true
-    billboard.Enabled = false -- Initially disabled
+    billboard.Enabled = false 
 
     local label = Instance.new("TextLabel")
     label.Parent = billboard
